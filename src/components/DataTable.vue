@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import data from "@/db.json"
 export default {
   name: "Table",
   data () {
@@ -40,8 +39,6 @@ export default {
     }
   },
   mounted () {
-    // this.table_data = data.data;
-    // console.log(this.table_data)
     this.getProjects()
   },
   methods: {
